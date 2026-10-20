@@ -1,0 +1,395 @@
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+<!-- ANON.TRADER · Pegar en un bloque "HTML personalizado" de WordPress. Todo está aislado bajo .atb -->
+<div class="atb" id="at-root" data-theme="dark">
+<style>
+.atb{--bg:#0b0d10;--bg2:#13161b;--tx:#e8ebf0;--mu:#8b94a3;--bd:#232832;--ac:#2ee6a6;--ac2:#1fbf88;--rd:#ff6b6b;--sh:0 8px 30px rgba(0,0,0,.5);position:relative;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;transition:background .3s,color .3s;box-sizing:border-box}
+.atb[data-theme=light]{--bg:#f6f7f9;--bg2:#fff;--tx:#14171c;--mu:#5d6572;--bd:#e2e5ea;--ac:#0e9f6e;--ac2:#0b7c56;--rd:#d64545;--sh:0 8px 30px rgba(0,0,0,.08)}
+.atb *{box-sizing:border-box}.atb a{color:inherit;text-decoration:none}
+.atb .w{max-width:1040px;margin:0 auto;padding:0 20px}
+.atb #at-loader{position:fixed;inset:0;background:var(--bg);display:grid;place-items:center;z-index:99999;transition:opacity .5s,visibility .5s}
+.atb #at-loader.done{opacity:0;visibility:hidden}
+.atb .bars{display:flex;gap:6px;align-items:flex-end;height:40px}.atb .bars i{width:8px;background:var(--ac);border-radius:2px;animation:atb 1s infinite ease-in-out}
+.atb .bars i:nth-child(2){animation-delay:.15s}.atb .bars i:nth-child(3){animation-delay:.3s}.atb .bars i:nth-child(4){animation-delay:.45s}
+@keyframes atb{0%,100%{height:10px}50%{height:40px}}
+.atb header{position:sticky;top:var(--wp-admin--admin-bar--height,0px);z-index:900;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd)}
+.atb .nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.atb .logo{font-weight:700;letter-spacing:-.02em}.atb .logo span{color:var(--ac)}
+.atb nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+.atb nav a{display:block;padding:8px 12px;border-radius:8px;color:var(--mu);font-size:.92rem;transition:.2s}
+.atb nav a:hover,.atb nav a.on{color:var(--tx);background:var(--bg2)}
+.atb .tools{display:flex;gap:8px}
+.atb .ib,.atb .btn{cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--tx);border-radius:10px;font:inherit;transition:transform .2s,border-color .2s,background .2s,box-shadow .2s;display:inline-block;line-height:1.4}
+.atb .ib{width:40px;height:40px;display:grid;place-items:center;padding:0}
+.atb .ib:hover,.atb .btn:hover{border-color:var(--ac);transform:translateY(-2px);box-shadow:var(--sh)}
+.atb .btn{padding:11px 20px;font-weight:600}.atb .btn.p{background:var(--ac);color:#04130d;border-color:var(--ac)}.atb .btn.p:hover{background:var(--ac2)}
+.atb #at-burger{display:none}
+@media(max-width:760px){.atb #at-burger{display:grid}.atb nav{position:absolute;top:100%;left:0;right:0;background:var(--bg2);border-bottom:1px solid var(--bd);transform:translateY(-130%);visibility:hidden;transition:transform .35s,visibility .35s;padding:10px 20px 18px;z-index:-1}.atb nav.open{transform:none;visibility:visible}.atb nav ul{flex-direction:column}.atb nav a{padding:12px}}
+.atb .hero{padding:90px 0 60px}
+.atb .tag{display:inline-block;font-size:.8rem;color:var(--ac);border:1px solid var(--bd);padding:4px 12px;border-radius:99px;background:var(--bg2)}
+.atb h1{font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.08;letter-spacing:-.035em;margin:18px 0;color:var(--tx)}.atb h1 em{font-style:normal;color:var(--ac)}
+.atb .lead{color:var(--mu);max-width:600px;font-size:1.1rem}
+.atb .cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.atb .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:44px}
+.atb .stat{background:var(--bg2);border:1px solid var(--bd);border-radius:14px;padding:18px}.atb .stat b{display:block;font-size:1.5rem;color:var(--ac)}.atb .stat span{color:var(--mu);font-size:.85rem}
+.atb section{padding:60px 0;scroll-margin-top:90px}
+.atb h2{font-size:1.9rem;letter-spacing:-.025em;margin:0 0 8px;display:flex;align-items:center;gap:10px;color:var(--tx)}
+.atb .cp{opacity:0;font-size:.8rem;padding:2px 8px;cursor:pointer;border:1px solid var(--bd);background:var(--bg2);color:var(--mu);border-radius:8px;transition:.2s;font-family:inherit}
+.atb h2:hover .cp,.atb .cp:focus{opacity:1}.atb .cp:hover{color:var(--ac);border-color:var(--ac)}
+.atb .sub{color:var(--mu);margin:0 0 28px}
+.atb .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.atb .tab{padding:9px 16px;border-radius:99px;border:1px solid var(--bd);background:var(--bg2);color:var(--mu);cursor:pointer;font:inherit;font-size:.9rem;transition:.2s}
+.atb .tab:hover{color:var(--tx);border-color:var(--ac)}.atb .tab.on{background:var(--ac);color:#04130d;border-color:var(--ac);font-weight:600}
+.atb .panel{display:none;background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:26px;animation:atin .4s}.atb .panel.on{display:block}
+@keyframes atin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.atb .panel h3{margin:0 0 10px;font-size:1.3rem;color:var(--tx)}.atb .panel p,.atb .panel li{color:var(--mu)}.atb .panel p{margin:0 0 12px}.atb .panel ul{padding-left:20px;margin:0 0 16px}
+.atb figure{margin:18px 0 0;background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:12px}
+.atb figure svg{width:100%;height:auto;display:block}.atb figcaption{color:var(--mu);font-size:.82rem;margin-top:6px}
+.atb svg text{font:11px system-ui,sans-serif;fill:var(--mu)}
+.atb .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.atb .card{background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:24px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.atb .card:hover{transform:translateY(-5px);border-color:var(--ac);box-shadow:var(--sh)}
+.atb .card small{color:var(--ac)}.atb .card h3{margin:6px 0;color:var(--tx)}.atb .card p{margin:0;color:var(--mu)}
+.atb .box{background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:24px}
+.atb .note{color:var(--mu);font-size:.82rem;margin-top:10px}
+.atb .rv{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}.atb .rv.v{opacity:1;transform:none}
+.atb details{background:var(--bg2);border:1px solid var(--bd);border-radius:12px;margin-bottom:10px;transition:border-color .2s}
+.atb details:hover,.atb details[open]{border-color:var(--ac)}
+.atb summary{cursor:pointer;padding:16px 20px;font-weight:600;list-style:none;display:flex;justify-content:space-between;color:var(--tx)}
+.atb summary::-webkit-details-marker{display:none}
+.atb summary::after{content:"+";color:var(--ac);transition:transform .3s}.atb details[open] summary::after{transform:rotate(45deg)}
+.atb details p{margin:0;padding:0 20px 18px;color:var(--mu)}
+.atb .two{display:grid;grid-template-columns:1.2fr 1fr;gap:20px}@media(max-width:760px){.atb .two{grid-template-columns:1fr}}
+.atb form{display:grid;gap:12px}
+.atb label{font-size:.88rem;color:var(--mu)}
+.atb input[type=email],.atb input[type=text]{width:100%;padding:12px 14px;margin-top:6px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit;transition:border-color .2s,box-shadow .2s}
+.atb input:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 3px color-mix(in srgb,var(--ac) 25%,transparent)}
+.atb .chk{display:flex;gap:8px;align-items:flex-start;font-size:.82rem}.atb .chk input{margin-top:4px;accent-color:var(--ac)}
+.atb .err{color:var(--rd);font-size:.82rem;min-height:1em;display:block;margin-top:4px}.atb input.bad{border-color:var(--rd)}
+.atb #at-ok{display:none;color:var(--ac);margin:0}
+.atb .soc{display:grid;gap:10px}.atb .soc a{display:flex;justify-content:space-between;padding:13px 16px;border:1px solid var(--bd);border-radius:12px;background:var(--bg);transition:.2s}
+.atb .soc a:hover{border-color:var(--ac);transform:translateX(4px);color:var(--ac)}
+.atb footer{border-top:1px solid var(--bd);padding:34px 0;color:var(--mu);font-size:.88rem}.atb .fl{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.atb #at-top{position:fixed;right:20px;bottom:20px;opacity:0;visibility:hidden;z-index:900}.atb #at-top.s{opacity:1;visibility:visible}
+.atb #at-ck{position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:auto;background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:18px;box-shadow:var(--sh);z-index:99990;display:none;animation:atin .5s}
+.atb #at-ck p{margin:0 0 12px;color:var(--mu);font-size:.9rem}.atb #at-ck div{display:flex;gap:8px;justify-content:flex-end}
+.atb #at-sr{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:99980;display:none;padding:90px 16px}.atb #at-sr.o{display:block}
+.atb .sb{max-width:560px;margin:auto;background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:18px}
+.atb #at-res a{display:block;padding:10px 12px;border-radius:8px;color:var(--mu);font-size:.9rem}.atb #at-res a:hover{background:var(--bg);color:var(--ac)}.atb #at-res b{color:var(--tx);display:block}
+.atb #at-toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--ac);color:#04130d;padding:8px 16px;border-radius:99px;font-weight:600;opacity:0;transition:.3s;z-index:99995;pointer-events:none}.atb #at-toast.s{opacity:1;transform:translateX(-50%)}
+.atb :focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.atb *{animation:none!important;transition:none!important}}
+.atb svg text{font-size:12px;paint-order:stroke;stroke:var(--bg);stroke-width:3px;stroke-linejoin:round}
+.atb .hg{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center}
+.atb .cal{display:grid;grid-template-columns:1.1fr 1fr;gap:20px}
+@media(max-width:760px){.atb .hg,.atb .cal{grid-template-columns:1fr}}
+.atb .me{background:var(--bg2);border:1px solid var(--bd);border-radius:20px;padding:24px;box-shadow:var(--sh)}
+.atb .av{width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,var(--ac),#5b8def);color:#04130d;display:grid;place-items:center;font-weight:800;font-size:1.2rem}
+.atb .me h3{margin:12px 0 4px;color:var(--tx)}.atb .me p{color:var(--mu);margin:0 0 16px;font-size:.92rem}
+.atb .fn{display:grid;gap:10px;justify-items:center}
+.atb .fn a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 22px;background:var(--bg2);border:1px solid var(--bd);border-radius:14px;transition:.25s}
+.atb .fn a:hover{border-color:var(--ac);transform:scale(1.02)}.atb .fn b{color:var(--ac)}.atb .fn span{color:var(--mu);font-size:.9rem}
+.atb .dir{display:inline-flex;border:1px solid var(--bd);border-radius:99px;padding:3px;margin:4px 0 0}
+.atb .dir button{border:0;background:none;color:var(--mu);padding:6px 14px;border-radius:99px;cursor:pointer;font:inherit;font-size:.85rem;transition:.2s}
+.atb .dir button.on{background:var(--ac);color:#04130d;font-weight:600}
+.atb ol.st{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:8px}
+.atb ol.st li{display:flex;gap:10px;color:var(--mu);font-size:.93rem}
+.atb ol.st b{flex:none;width:22px;height:22px;border-radius:50%;background:#5b8def;color:#fff;display:grid;place-items:center;font-size:.78rem}
+.atb .tip{background:color-mix(in srgb,var(--rd) 10%,transparent);border-left:3px solid var(--rd);padding:10px 14px;border-radius:0 10px 10px 0;margin:16px 0 0!important;font-size:.9rem}
+.atb .r2,.atb .res{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.atb select,.atb input[type=number]{width:100%;padding:12px 14px;margin-top:6px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font:inherit}
+.atb select:focus,.atb input[type=number]:focus{outline:none;border-color:var(--ac)}
+.atb .rc{background:var(--bg);border:1px solid var(--bd);border-radius:12px;padding:14px}.atb .rc small{color:var(--mu)}.atb .rc b{display:block;font-size:1.25rem;color:var(--ac)}
+.atb .bdg{display:inline-block;font-size:.72rem;padding:2px 10px;border-radius:99px;border:1px solid var(--bd);color:var(--mu)}.atb .bdg.on{color:var(--ac);border-color:var(--ac)}
+.atb .soc a.off{opacity:.5;pointer-events:none}
+.atb ul.l{color:var(--mu);padding-left:20px;margin:10px 0 0}.atb ul.l li{margin:6px 0}
+</style>
+ 
+<div id="at-loader"><div class="bars"><i></i><i></i><i></i><i></i></div></div>
+ 
+<header><div class="w nav">
+ <a href="#at-inicio" class="logo">q<span>.</span>bl4nk</a>
+ <nav id="at-menu" aria-label="Principal"><ul>
+  <li><a href="#at-conceptos">Conceptos</a></li><li><a href="#at-riesgo">Riesgo</a></li><li><a href="#at-calc">Calculadora</a></li>
+  <li><a href="#at-fondeo">Fondeo</a></li><li><a href="#at-faq">FAQ</a></li><li><a href="#at-ig">Instagram</a></li></ul></nav>
+ <div class="tools">
+  <button class="ib" id="at-sbtn" aria-label="Buscar">🔍</button>
+  <button class="ib" id="at-theme" aria-label="Cambiar tema">🌓</button>
+  <button class="ib" id="at-burger" aria-label="Menú" aria-expanded="false">☰</button>
+ </div></div></header>
+ 
+<div class="w hero" id="at-inicio"><div class="hg">
+ <div>
+  <span class="tag">● Contenido nuevo cada día en Instagram</span>
+  <h1>Price action explicado <em>claro</em>, cada día.</h1>
+  <p class="lead">Soy q.bl4nk, trader anónimo. Aquí tienes los conceptos con gráficos paso a paso, gestión de riesgo y una calculadora de lotaje gratis. Los vídeos explicativos los subo a Instagram.</p>
+  <div class="cta"><a class="btn p" href="#at-calc" data-track>Probar la calculadora</a><a class="btn" href="#at-conceptos" data-track>Ver los conceptos</a></div>
+ </div>
+ <div class="me">
+  <div class="av">QB</div><h3>@q.bl4nk</h3>
+  <p>Vídeos explicativos de price action y riesgo todos los días, y mi camino hacia una cuenta fondeada.</p>
+  <a class="btn p" href="https://www.instagram.com/q.bl4nk/" target="_blank" rel="noopener" data-track>Seguir en Instagram</a>
+ </div>
+</div>
+ <div class="stats">
+  <div class="stat"><b>7</b><span>Conceptos con gráficos</span></div>
+  <div class="stat"><b>Diario</b><span>Vídeos en Instagram</span></div>
+  <div class="stat"><b>Gratis</b><span>Calculadora de lotaje</span></div>
+  <div class="stat"><b>100%</b><span>Educativo y anónimo</span></div>
+ </div>
+</div>
+ 
+<section id="at-ruta"><div class="w rv">
+ <h2>Tu ruta en 3 pasos</h2><p class="sub">De entender el mercado a operar con un plan de riesgo.</p>
+ <div class="fn">
+  <a href="#at-conceptos" style="width:100%"><div><b>1 · Aprende</b><br><span>7 conceptos clave con ejemplos gráficos</span></div><span>↓</span></a>
+  <a href="#at-calc" style="width:88%"><div><b>2 · Calcula</b><br><span>Tu lotaje según tu stop y tu riesgo</span></div><span>↓</span></a>
+  <a href="https://www.instagram.com/q.bl4nk/" target="_blank" rel="noopener" data-track style="width:76%"><div><b>3 · Sigue</b><br><span>Vídeos explicativos diarios en Instagram</span></div><span>→</span></a>
+ </div>
+</div></section>
+ 
+<section id="at-conceptos"><div class="w rv">
+ <h2>Los conceptos clave</h2>
+ <p class="sub">Cada uno con un gráfico simulado, numerado paso a paso. Cambia entre versión alcista y bajista.</p>
+ <div class="tabs" id="at-tabs" role="tablist"></div><div id="at-panels"></div>
+</div></section>
+ 
+<section id="at-combo"><div class="w rv">
+ <h2>Ejemplo final: todo combinado</h2>
+ <p class="sub">Así se encadenan los conceptos en una operación completa.</p>
+ <div class="box"><div id="at-combo-ch"></div><p class="note">Ejemplo 100 % simulado con fines educativos. No es una señal ni una recomendación.</p></div>
+ <div class="grid" style="margin-top:16px">
+  <div class="card"><small>Intradía</small><h3>Bias + FVG</h3><p>Bias en 4H/1H y entrada en un FVG de 5M a favor, con el DOL como objetivo.</p></div>
+  <div class="card"><small>Reversión</small><h3>IFVG tras barrido</h3><p>Tras barrer liquidez, espero un IFVG que confirme el giro.</p></div>
+  <div class="card"><small>Continuación</small><h3>BOS + Order Block</h3><p>Con BOS claro, retroceso al order block en discount o premium.</p></div>
+ </div>
+</div></section>
+ 
+<section id="at-riesgo"><div class="w rv">
+ <h2>Gestión del riesgo</h2><p class="sub">Lo que decide si sigues en el juego: seis reglas básicas.</p>
+ <div class="grid">
+  <div class="card"><small>Regla 1</small><h3>Riesgo fijo por operación</h3><p>Entre 0,25 % y 1 % del balance. Con 50.000 $ y 0,5 %, arriesgas 250 $ por trade.</p></div>
+  <div class="card"><small>Regla 2</small><h3>El stop manda sobre el lote</h3><p>El SL lo marca la estructura. Después se ajusta el lotaje al SL, nunca al revés (usa la calculadora).</p></div>
+  <div class="card"><small>Regla 3</small><h3>R:R mínimo 1:2</h3><p>Con R:R 1:2 basta acertar más del 34 % para no perder dinero (sin comisiones).</p></div>
+  <div class="card"><small>Regla 4</small><h3>Límite diario</h3><p>Una propuesta: parar tras 2 pérdidas seguidas o −2R en el día. Proteger el día protege la cuenta.</p></div>
+  <div class="card"><small>Regla 5</small><h3>Respeta el drawdown</h3><p>Con 1 % de riesgo y 5 % de límite diario solo caben 5 pérdidas; con 0,5 %, caben 10.</p></div>
+  <div class="card"><small>Regla 6</small><h3>Sin venganza ni promedios</h3><p>No subir lotaje para recuperar. Anotar cada operación en un diario y revisarlo cada semana.</p></div>
+ </div>
+</div></section>
+ 
+<section id="at-calc"><div class="w rv">
+ <h2>Calculadora de lotaje gratis</h2><p class="sub">Calcula el tamaño de posición según tu riesgo y tu stop. Sirve para forex, oro, índices y futuros.</p>
+ <div class="cal">
+  <div class="box"><form id="at-cf" novalidate>
+   <label>Instrumento<select id="at-ins"></select></label>
+   <label id="at-cvw" style="display:none">Valor de 1 unidad por lote o contrato ($)<input type="number" id="at-cv" step="any"><span class="err"></span></label>
+   <div class="r2"><label>Balance ($)<input type="number" id="at-bal" value="50000" step="any"><span class="err"></span></label>
+   <label>Riesgo por operación (%)<input type="number" id="at-rk" value="0.5" step="any"><span class="err"></span></label></div>
+   <div class="r2"><label>Stop Loss (<span class="ul">pips</span>)<input type="number" id="at-sl" value="15" step="any"><span class="err"></span></label>
+   <label>Take Profit (<span class="ul">pips</span>) · opcional<input type="number" id="at-tp" value="45" step="any"><span class="err"></span></label></div>
+   <div class="r2"><label>Límite pérdida diaria (%) · fondeo<input type="number" id="at-dd" value="5" step="any"><span class="err"></span></label>
+   <label>Drawdown máximo (%) · fondeo<input type="number" id="at-md" value="10" step="any"><span class="err"></span></label></div>
+   <button class="btn p" type="submit">Calcular</button>
+  </form></div>
+  <div class="box">
+   <div class="res"><div class="rc"><small>Riesgo</small><b id="at-r1">—</b></div><div class="rc"><small>Tamaño de posición</small><b id="at-r2">—</b></div>
+   <div class="rc"><small>Beneficio potencial</small><b id="at-r3">—</b></div><div class="rc"><small>Ratio R:R</small><b id="at-r4">—</b></div></div>
+   <p id="at-msg" class="note" style="font-size:.9rem;line-height:1.7"></p>
+   <div class="cta" style="margin-top:14px"><button class="btn" id="at-cp" type="button">Copiar resultado</button><a class="btn p" href="https://www.instagram.com/q.bl4nk/" target="_blank" rel="noopener" data-track>Ver el vídeo en Instagram</a></div>
+   <p class="note">Valores orientativos. Verifica el valor del pip/punto y el lote mínimo con tu bróker o tu empresa de fondeo. No es asesoramiento financiero.</p>
+  </div>
+ </div>
+</div></section>
+ 
+<section id="at-fondeo"><div class="w rv">
+ <h2>Mi objetivo: fondearme</h2>
+ <p class="sub">Operar con capital de una empresa de fondeo tras superar su evaluación. Estoy en proceso y lo comparto contigo, incluidos los errores.</p>
+ <div class="grid">
+  <div class="card"><span class="bdg on">En curso</span><h3>1 · Formación y práctica</h3><p>Dominar los conceptos y el riesgo antes de arriesgar capital.</p></div>
+  <div class="card"><span class="bdg on">En proceso</span><h3>2 · Superar la evaluación</h3><p>Cumplir el objetivo de beneficio sin romper las reglas de drawdown.</p></div>
+  <div class="card"><span class="bdg">Objetivo</span><h3>3 · Cuenta fondeada</h3><p>Operar con capital de terceros con riesgo propio limitado.</p></div>
+  <div class="card"><span class="bdg">Objetivo</span><h3>4 · Primer retiro</h3><p>Documentarlo con transparencia en Instagram.</p></div>
+ </div>
+ <div class="box" style="margin-top:16px"><h3 style="margin:0;color:var(--tx)">Reglas típicas que condicionan mi riesgo</h3>
+  <ul class="l"><li>Objetivo de beneficio de la evaluación.</li><li>Límite de pérdida diaria.</li><li>Drawdown máximo total.</li><li>Reglas de consistencia (varían por empresa: léelas siempre antes de contratar).</li></ul></div>
+ <div class="box" style="margin-top:16px"><h3 style="margin:0 0 6px;color:var(--tx)">Seguimiento semanal (ejemplo, en R)</h3>
+  <svg viewBox="0 0 600 220" role="img" aria-label="PnL semanal en R" style="width:100%;height:auto"><line x1="30" y1="110" x2="590" y2="110" stroke="var(--bd)"/><g id="at-bars"></g></svg>
+  <p class="note">* Datos de ejemplo. Resultados pasados no garantizan resultados futuros.</p></div>
+</div></section>
+ 
+<section id="at-faq"><div class="w rv">
+ <h2>Preguntas frecuentes</h2><p class="sub">Lo que más me preguntan.</p>
+ <details><summary>¿Esto es asesoramiento financiero?</summary><p>No. Es contenido educativo y refleja mi experiencia personal. Operar conlleva riesgo de pérdida.</p></details>
+ <details><summary>¿Vendes cursos, señales o gestión de cuentas?</summary><p>No. Este espacio es solo informativo.</p></details>
+ <details><summary>¿Dónde subes los vídeos?</summary><p>En Instagram, @q.bl4nk, con contenido nuevo cada día. Los demás canales están en proceso.</p></details>
+ <details><summary>¿Qué es una cuenta fondeada?</summary><p>Una cuenta con capital de una empresa de fondeo que obtienes al superar su evaluación, respetando sus reglas de riesgo.</p></details>
+ <details><summary>¿La calculadora sirve para cualquier broker?</summary><p>Es orientativa: el valor del pip o punto y el lote mínimo cambian según broker y empresa. Compruébalo antes de operar.</p></details>
+</div></section>
+ 
+<section id="at-ig"><div class="w rv">
+ <h2>Sígueme en Instagram</h2><p class="sub">Ahí está el contenido diario y los vídeos explicativos. Más canales, próximamente.</p>
+ <div class="box soc" style="max-width:520px">
+  <a href="https://www.instagram.com/q.bl4nk/" target="_blank" rel="noopener" data-track><span><b>Instagram</b> · @q.bl4nk</span><span>Activo →</span></a>
+  <a class="off" href="#at-ig"><span>Telegram</span><span class="bdg">En proceso</span></a>
+  <a class="off" href="#at-ig"><span>X / Twitter</span><span class="bdg">En proceso</span></a>
+  <a class="off" href="#at-ig"><span>YouTube</span><span class="bdg">En proceso</span></a>
+ </div>
+</div></section>
+ 
+<footer><div class="w fl"><span>© <span id="at-yr"></span> q.bl4nk</span><span>Contenido educativo. No es asesoramiento financiero.</span></div></footer>
+ 
+<button class="ib" id="at-top" aria-label="Volver arriba">↑</button>
+<div id="at-toast">Copiado</div>
+<div id="at-sr"><div class="sb"><input type="text" id="at-q" placeholder="Buscar en el sitio…" aria-label="Buscar"><div id="at-res"></div></div></div>
+<div id="at-ck" role="dialog" aria-label="Cookies"><p>Uso cookies propias para recordar tu tema y medir visitas con parámetros UTM. ¿Las aceptas?</p><div><button class="btn" id="at-no">Rechazar</button><button class="btn p" id="at-yes">Aceptar</button></div></div>
+ 
+<script>
+(()=>{
+const R=document.getElementById('at-root'),$=(s,c=R)=>c.querySelector(s),$$=(s,c=R)=>[...c.querySelectorAll(s)],F=id=>document.getElementById(id);
+const st={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+addEventListener('load',()=>setTimeout(()=>F('at-loader').classList.add('done'),500));
+F('at-yr').textContent=new Date().getFullYear();
+const sv=st.get('at-theme');if(sv)R.dataset.theme=sv;
+F('at-theme').onclick=()=>{const t=R.dataset.theme==='dark'?'light':'dark';R.dataset.theme=t;st.set('at-theme',t)};
+const mn=F('at-menu'),bg=F('at-burger');
+bg.onclick=()=>{const o=mn.classList.toggle('open');bg.setAttribute('aria-expanded',o);bg.textContent=o?'✕':'☰'};
+$$('#at-menu a').forEach(a=>a.onclick=()=>{mn.classList.remove('open');bg.textContent='☰'});
+const toast=m=>{const t=F('at-toast');t.textContent=m;t.classList.add('s');setTimeout(()=>t.classList.remove('s'),1600)};
+const copy=t=>{try{navigator.clipboard.writeText(t)}catch(e){}toast('Copiado')};
+$$('section[id] h2').forEach(h=>{const b=document.createElement('button');b.className='cp';b.textContent='# copiar';b.setAttribute('aria-label','Copiar enlace de la sección');b.onclick=()=>copy(location.href.split('#')[0]+'#'+h.closest('section').id);h.appendChild(b)});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('v');io.unobserve(e.target)}}),{threshold:.05});
+$$('.rv').forEach(e=>io.observe(e));
+const tp=F('at-top');
+addEventListener('scroll',()=>{tp.classList.toggle('s',scrollY>500);let c='';$$('section[id]').forEach(s=>{if(s.getBoundingClientRect().top<150)c=s.id});$$('#at-menu a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+c))},{passive:true});
+tp.onclick=()=>R.scrollIntoView({behavior:'smooth'});
+ 
+/* ===== Gráficos ===== */
+const K={g:'var(--ac)',r:'var(--rd)',b:'#5b8def'};
+const Z=(a,b,p0,p1,c,l)=>({t:'z',a,b,p:[p0,p1],c,l}),L=(p,a,b,c,l)=>({t:'l',p,a,b,c,l}),N=(i,p,d)=>({t:'n',i,p,d}),PL=(c,pts)=>({t:'p',c,pts});
+const MAP={alcistas:'bajistas',alcista:'bajista',bajistas:'alcistas',bajista:'alcista',compras:'ventas',compra:'venta',ventas:'compras',venta:'compra',máximos:'mínimos',máximo:'mínimo',mínimos:'máximos',mínimo:'máximo',premium:'discount',discount:'premium',debajo:'encima',encima:'debajo',resistencia:'soporte',soporte:'resistencia',abajo:'arriba',arriba:'abajo',caro:'barato',barato:'caro',hh:'LL',hl:'LH'};
+const RX=/alcistas|alcista|bajistas|bajista|compras|compra|ventas|venta|máximos|máximo|mínimos|mínimo|premium|discount|debajo|encima|resistencia|soporte|abajo|arriba|caro|barato|hh|hl/gi;
+const sw=(s,m)=>m?s.replace(RX,x=>{const r=MAP[x.toLowerCase()];return/[A-ZÁÉÍÓÚ]/.test(x[0])?r[0].toUpperCase()+r.slice(1):r}):s;
+const CH=[
+{n:'Bias',h:'Bias (sesgo)',d:'El bias es la dirección que espero que tome el precio en un marco temporal. Lo defino con la estructura del marco mayor (4H/1H): si hace máximos y mínimos cada vez más altos, el bias es alcista.',
+ t:'Cambiar de bias en cada vela. Defínelo en el marco mayor y no lo cambies por el ruido del marco menor.',
+ s:['Máximos cada vez más altos (HH).','Mínimos cada vez más altos (HL).','Mientras se mantenga esta estructura, el bias es alcista: busco solo compras.'],
+ c:[[20,23,19,22],[22,27,21,26],[26,26,23,24],[24,25,22,23],[23,30,23,29],[29,33,28,31],[31,32,28,29],[29,30,27,28],[28,36,28,35],[35,39,34,37],[37,38,34,35],[35,36,33,34],[34,42,34,41],[41,45,40,44]],
+ o:[PL('b',[[1,27],[5,33],[9,39],[13,45]]),PL('g',[[3,22],[7,27],[11,33]]),N(9,39,1),N(7,27,0),N(13,45,1)]},
+{n:'DOL',h:'DOL (Draw on Liquidity)',d:'El DOL es el imán del precio: la liquidez acumulada, como los stops sobre máximos iguales, que el precio tiende a ir a buscar. Responde a la pregunta: ¿hacia dónde quiere ir?',
+ t:'Tratar el DOL como una entrada. Es un objetivo: tras barrerlo, el precio puede continuar o girar.',
+ s:['Se forman máximos casi iguales: tras ellos se acumulan stops.','Encima de esos máximos hay liquidez (pool de stops).','El precio la barre: el DOL se cumple. Después puede continuar o girar.'],
+ c:[[30,33,29,32],[32,38,31,37],[37,40,35,36],[36,37,32,33],[33,36,31,35],[35,40,34,38],[38,39,34,35],[35,36,32,33],[33,38,33,37],[37,40,36,39],[39,40,37,38],[38,44,38,43],[43,44,41,42]],
+ o:[Z(2,12,40,43,'b','Liquidez (stops)'),N(7,40,0),N(7,43,1),N(11,44,1)]},
+{n:'FVG',h:'FVG (Fair Value Gap)',d:'Desequilibrio de tres velas: el hueco entre el máximo de la vela 1 y el mínimo de la vela 3 que la vela 2 no cubrió. Marca un movimiento agresivo y el precio suele volver a testearlo.',
+ t:'Operar cualquier hueco. Pesa más el FVG que nace de un desplazamiento fuerte y a favor del bias.',
+ s:['Máximo de la vela 1.','Mínimo de la vela 3: el hueco que la vela 2 no cubre es el FVG.','El precio vuelve al FVG y reacciona: zona de posible entrada.'],
+ c:[[30,32,29,31],[31,33,30,32],[32,34,31,33],[33,43,33,42],[42,45,38,44],[44,46,43,45],[45,45,40,41],[41,42,37,38],[38,43,37,42],[42,47,41,46]],
+ o:[Z(2,8,34,38,'g','FVG'),N(2,34,1),N(4,38,1),N(7,37,0)]},
+{n:'IFVG',h:'IFVG (Inverse FVG)',d:'Aparece cuando el precio cierra al otro lado de un FVG y este cambia de rol: un FVG alcista roto pasa a comportarse como resistencia.',
+ t:'Confundir una mecha con una ruptura. Hace falta cierre de cuerpo más allá del FVG.',
+ s:['FVG alcista original (hueco entre la vela 1 y la 3).','Una vela cierra por debajo del FVG: queda invalidado.','El precio lo testea desde abajo y lo rechaza: ahora es resistencia (IFVG).'],
+ c:[[30,31,29,30],[30,32,29,31],[31,32,30,32],[32,40,32,39],[39,40,35,38],[38,38,33,34],[34,34,29,30],[30,34,29,33],[33,33,27,28],[28,29,24,25]],
+ o:[Z(2,8,32,35,'r','IFVG (ahora resistencia)'),N(4,35,0),N(6,30,0),N(7,34,1)]},
+{n:'Equilibrium',h:'Equilibrium',d:'Es el 50 % de un rango o impulso. Por debajo es zona discount (barata) y por encima premium (cara). En tendencia alcista busco compras en discount.',
+ t:'Comprar en premium persiguiendo el precio: peor entrada y stop más lejos.',
+ s:['Marco el mínimo del impulso.','Marco su máximo: el punto medio (50 %) es el equilibrium.','Por debajo del 50 % (discount) busco compras; por encima sería caro.'],
+ c:[[22,25,20,24],[24,30,23,29],[29,35,28,34],[34,40,33,39],[39,39,35,36],[36,37,32,33],[33,34,29,30],[30,31,27,28],[28,33,27,32],[32,38,31,37],[37,44,36,43]],
+ o:[Z(0,10,30,40,'r','Premium (caro)'),Z(0,10,20,30,'g','Discount (barato)'),L(30,0,10,'b','Equilibrium 50 %'),N(0,20,0),N(3,40,1),N(7,28,0)]},
+{n:'BOS',h:'BOS (Break of Structure)',d:'El precio rompe con cierre un máximo o mínimo relevante a favor de la tendencia: confirma continuación. Si rompe en contra, es un CHoCH y sugiere giro.',
+ t:'Marcar un BOS solo con mecha o sin desplazamiento: suele ser una ruptura débil.',
+ s:['Identifico el último máximo relevante.','Una vela cierra por encima: BOS, la tendencia continúa.','El nivel roto suele actuar como soporte en el retroceso.'],
+ c:[[20,23,19,22],[22,28,21,27],[27,27,23,24],[24,25,22,23],[23,26,23,25],[25,32,25,31],[31,33,29,30],[30,31,27,28],[28,35,28,34]],
+ o:[L(28,1,5,'b','Máximo previo'),N(1,28,1),N(5,31,1),N(7,28,0)]},
+{n:'Order Block',h:'Order Block',d:'Es la última vela contraria antes de un impulso fuerte. Se interpreta como la zona donde quedaron órdenes pendientes y suele reaccionar cuando el precio vuelve.',
+ t:'Usar order blocks sin impulso posterior o ya testeados varias veces: pierden fuerza.',
+ s:['Última vela bajista antes del impulso: es el Order Block.','Un impulso fuerte la deja atrás y confirma la intención.','El precio regresa al bloque y reacciona: entrada con SL por debajo del bloque.'],
+ c:[[30,32,29,31],[31,32,28,29],[29,30,27,28],[28,29,25,26],[26,35,26,34],[34,39,33,38],[38,39,36,37],[37,38,33,34],[34,35,28,29],[29,37,28,36],[36,41,35,40]],
+ o:[Z(3,9,25,29,'g','Order Block'),N(3,25,0),N(5,38,1),N(8,28,0)]}];
+const COMBO={h:340,
+ s:['Bias alcista en el marco mayor: busco compras.','Origen del impulso: la última vela bajista es el Order Block.','El impulso rompe el máximo previo (BOS) y deja un FVG.','Retroceso al FVG, en la zona del equilibrium: entrada con SL por debajo del mínimo (R:R ≈ 1:5).','Objetivo: el DOL, la liquidez de los máximos iguales.'],
+ c:[[40,44,39,43],[43,50,42,49],[49,49,44,45],[45,46,41,42],[42,43,38,39],[39,40,36,37],[37,47,37,46],[46,56,45,55],[55,59,51,58],[58,60,55,56],[56,57,50,51],[51,52,47,48],[48,55,48,54],[54,61,53,60],[60,64,59,62],[62,64,60,61]],
+ o:[Z(11,15,48,64,'g','TP'),Z(11,15,45,48,'r','SL'),Z(5,7,36,40,'g','Order Block'),Z(6,12,47,51,'b','FVG'),L(50,1,7,'g','BOS'),L(47.5,0,15,'r','EQ del impulso (50 %)'),L(64,13,15,'b','DOL'),N(1,50,1),N(5,36,0),N(7,56,1),N(11,47,0),N(14,64,1)]};
+ 
+function draw(bx,ol,cf,m){
+ const W=560,H=cf.h||270,P=16,f=v=>m?100-v:v,sc=c=>m?{g:'r',r:'g',b:'b'}[c]:c,
+ C=cf.c.map(c=>m?[f(c[0]),f(c[2]),f(c[1]),f(c[3])]:c),
+ lo=Math.min(...C.map(c=>c[2]))-5,hi=Math.max(...C.map(c=>c[1]))+7,s=(W-2*P)/C.length,
+ y=p=>H-P-(p-lo)/(hi-lo)*(H-2*P),x=i=>P+s*i+s/2;let h='',n=0;
+ cf.o.forEach(o=>{if(o.t==='z'){const a=f(o.p[0]),b=f(o.p[1]),t=Math.min(a,b),u=Math.max(a,b),c=K[sc(o.c)];
+  h+=`<rect x="${x(o.a)-s/2}" y="${y(u)}" width="${x(o.b)-x(o.a)+s}" height="${y(t)-y(u)}" fill="${c}" fill-opacity=".13" stroke="${c}" stroke-opacity=".6" stroke-dasharray="3 3"/><text x="${x(o.a)-s/2+5}" y="${y(t)-6}" style="fill:${c};font-weight:600">${sw(o.l,m)}</text>`}});
+ C.forEach((c,i)=>{const k=c[3]>=c[0]?K.g:K.r;h+=`<line x1="${x(i)}" x2="${x(i)}" y1="${y(c[1])}" y2="${y(c[2])}" stroke="${k}" stroke-width="1.6"/><rect x="${x(i)-s*.3}" y="${y(Math.max(c[0],c[3]))}" width="${s*.6}" height="${Math.max(1.5,Math.abs(y(c[0])-y(c[3])))}" rx="1.5" fill="${k}"/>`});
+ cf.o.forEach(o=>{if(o.t==='p')h+=`<polyline fill="none" stroke="${K[sc(o.c)]}" stroke-width="1.6" stroke-dasharray="5 4" points="${o.pts.map(q=>x(q[0])+','+y(f(q[1]))).join(' ')}"/>`;
+  if(o.t==='l'){const c=K[sc(o.c)];h+=`<line x1="${x(o.a)-s/2}" x2="${x(o.b)+s/2}" y1="${y(f(o.p))}" y2="${y(f(o.p))}" stroke="${c}" stroke-width="1.4" stroke-dasharray="6 4"/><text x="${x(o.b)+s/2-4}" y="${y(f(o.p))-6}" text-anchor="end" style="fill:${c};font-weight:600">${sw(o.l,m)}</text>`}
+  if(o.t==='n'){n++;const d=m?!o.d:o.d,px=x(o.i),py=y(f(o.p)),cy=Math.min(H-14,Math.max(14,py+(d?-22:22)));
+   h+=`<line x1="${px}" y1="${py}" x2="${px}" y2="${cy}" stroke="#5b8def" stroke-width="1.2"/><circle cx="${px}" cy="${py}" r="3" fill="#5b8def"/><circle cx="${px}" cy="${cy}" r="10.5" fill="#5b8def"/><text x="${px}" y="${cy+4}" text-anchor="middle" style="fill:#fff;stroke:none;font-weight:700">${n}</text>`}});
+ h+=`<text x="${W-8}" y="14" text-anchor="end" style="font-size:10px;opacity:.7">Ejemplo simulado · ${m?'bajista':'alcista'}</text>`;
+ bx.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico de velas simulado">${h}</svg>`;
+ ol.innerHTML=cf.s.map((t,j)=>`<li><b>${j+1}</b><span>${sw(t,m)}</span></li>`).join('')}
+const mk=(host,cf)=>{host.innerHTML='<div class="dir"><button class="on">Alcista</button><button>Bajista</button></div><figure><div></div></figure><ol class="st"></ol>';
+ const bs=$$('button',host),bx=$('div',$('figure',host)),ol=$('ol',host),go=m=>{bs.forEach((b,i)=>b.classList.toggle('on',!!i===m));draw(bx,ol,cf,m)};
+ bs.forEach((b,i)=>b.onclick=()=>go(!!i));go(false)};
+const tb=F('at-tabs'),pn=F('at-panels');
+CH.forEach((cf,i)=>{const b=document.createElement('button'),p=document.createElement('article');
+ b.className='tab'+(i?'':' on');b.textContent=cf.n;p.className='panel'+(i?'':' on');
+ p.innerHTML=`<h3>${cf.h}</h3><p>${cf.d}</p><div class="hx"></div><p class="tip"><b>Error común:</b> ${cf.t}</p>`;mk($('.hx',p),cf);
+ b.onclick=()=>{$$('.tab',tb).forEach(x=>x.classList.remove('on'));$$('.panel',pn).forEach(x=>x.classList.remove('on'));b.classList.add('on');p.classList.add('on')};
+ tb.appendChild(b);pn.appendChild(p)});
+mk(F('at-combo-ch'),COMBO);
+ 
+/* PnL de ejemplo */
+const d=[2.1,-1,3.4,1.2,-1,4.1,.8,-1,2.6,1.9],mx=Math.max(...d.map(Math.abs)),g=F('at-bars');
+d.forEach((v,i)=>{const h=Math.abs(v)/mx*90,x=45+i*55,y=v>=0?110-h:110;g.insertAdjacentHTML('beforeend',`<rect x="${x}" y="${y}" width="34" height="${h}" rx="4" fill="${v>=0?'var(--ac)':'var(--rd)'}"><title>S${i+1}: ${v}R</title></rect><text x="${x+17}" y="208" text-anchor="middle">S${i+1}</text>`)});
+ 
+/* ===== Calculadora de lotaje ===== */
+const INS={forex:['Forex · par cotizado en USD (EURUSD, GBPUSD…)',10,'pips',.01,'lotes'],xau:['Oro · XAUUSD (SL en $ de precio)',100,'$',.01,'lotes'],nas:['NAS100 / US100 (CFD)',1,'puntos',.01,'lotes'],us30:['US30 (CFD)',1,'puntos',.01,'lotes'],nq:['NQ · futuros',20,'puntos',1,'contratos'],mnq:['MNQ · micro futuros',2,'puntos',1,'contratos'],es:['ES · futuros',50,'puntos',1,'contratos'],mes:['MES · micro futuros',5,'puntos',1,'contratos'],custom:['Personalizado',0,'unidades',.01,'lotes']};
+const sel=F('at-ins');Object.keys(INS).forEach(k=>sel.insertAdjacentHTML('beforeend',`<option value="${k}">${INS[k][0]}</option>`));
+const usd=x=>x.toLocaleString('es-ES',{style:'currency',currency:'USD',maximumFractionDigits:2});
+function calc(force){
+ const k=sel.value,I=INS[k];let ok=true;
+ $$('.ul').forEach(e=>e.textContent=I[2]);F('at-cvw').style.display=k==='custom'?'block':'none';
+ const g=(id,test,msg,opt)=>{const el=F(id),raw=el.value.trim(),e=el.parentNode.querySelector('.err');let m='';
+  if(raw==='')m=opt?'':(force?'Introduce un valor.':'x');else if(!test(+raw))m=msg;
+  e.textContent=m==='x'?'':m;el.classList.toggle('bad',!!m&&m!=='x');if(m)ok=false;return +raw},pos=v=>v>0,mp='Debe ser mayor que 0.';
+ const bal=g('at-bal',pos,mp),rk=g('at-rk',v=>v>0&&v<=10,'Entre 0,01 y 10 %.'),sl=g('at-sl',pos,mp),tp=g('at-tp',pos,mp,1),dd=g('at-dd',pos,mp,1),md=g('at-md',pos,mp,1),cv=k==='custom'?g('at-cv',pos,mp):I[1];
+ if(!ok){['r1','r2','r3','r4'].forEach(i=>F('at-'+i).textContent='—');F('at-msg').textContent='Completa los datos para ver el resultado.';return}
+ const risk=bal*rk/100,size=Math.floor(risk/(sl*cv)/I[3]+1e-9)*I[3],real=size*sl*cv,rp=real/bal*100,rr=tp?tp/sl:0,m=[];
+ F('at-r1').textContent=usd(risk)+' ('+rk+' %)';F('at-r2').textContent=size.toFixed(I[3]>=1?0:2)+' '+I[4];
+ F('at-r3').textContent=tp&&size?usd(size*tp*cv):'—';F('at-r4').textContent=tp?'1 : '+rr.toFixed(2):'—';
+ m.push(size?'Riesgo real con el tamaño redondeado: '+usd(real)+' ('+rp.toFixed(2)+' %).':'⚠ Con este stop, el tamaño mínimo ('+I[3]+' '+I[4]+') ya supera tu riesgo. Reduce el SL o sube el riesgo.');
+ if(rk>2)m.push('⚠ Riesgo alto: en cuentas de fondeo se suele usar entre 0,25 % y 1 %.');
+ if(rr)m.push('Con R:R 1:'+rr.toFixed(2)+' necesitas acertar más del '+(100/(1+rr)).toFixed(0)+' % de las operaciones para no perder dinero (sin comisiones).');
+ if(size&&dd)m.push('Aguantas '+Math.floor(dd/rp+1e-9)+' pérdidas seguidas antes del límite diario'+(md?' y '+Math.floor(md/rp+1e-9)+' antes del drawdown máximo.':'.'));
+ F('at-msg').innerHTML=m.join('<br>')}
+F('at-cf').onsubmit=e=>{e.preventDefault();calc(true)};
+$$('#at-cf input,#at-cf select').forEach(e=>e.addEventListener('input',()=>calc(false)));
+F('at-cp').onclick=()=>copy('Riesgo: '+F('at-r1').textContent+' | Tamaño: '+F('at-r2').textContent+' | Beneficio potencial: '+F('at-r3').textContent+' | R:R: '+F('at-r4').textContent);
+calc(false);
+ 
+/* Buscador */
+const idx=$$('section[id]').map(s=>({id:s.id,t:$('h2',s).firstChild.textContent,x:s.textContent.replace(/\s+/g,' ')}));
+const sr=F('at-sr'),q=F('at-q'),cl=()=>sr.classList.remove('o');
+F('at-sbtn').onclick=()=>{sr.classList.add('o');q.focus()};sr.onclick=e=>{if(e.target===sr)cl()};
+addEventListener('keydown',e=>{if(e.key==='Escape')cl()});
+q.oninput=()=>{const v=q.value.trim().toLowerCase(),r=F('at-res');r.innerHTML='';if(v.length<2)return;
+ const hits=idx.filter(i=>i.x.toLowerCase().includes(v));if(!hits.length){r.innerHTML='<a>Sin resultados</a>';return}
+ hits.forEach(h=>{const p=h.x.toLowerCase().indexOf(v),a=document.createElement('a');a.href='#'+h.id;a.innerHTML='<b></b><span></span>';$('b',a).textContent=h.t;$('span',a).textContent='…'+h.x.slice(Math.max(0,p-30),p+70)+'…';a.onclick=cl;r.appendChild(a)})};
+ 
+/* Cookies + UTM */
+const ck=F('at-ck');if(!st.get('at-ck'))setTimeout(()=>ck.style.display='block',1200);
+const saveUtm=()=>{const p=new URLSearchParams(location.search),u={};['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(k=>{if(p.get(k))u[k]=p.get(k)});if(Object.keys(u).length)st.set('at-utm',JSON.stringify(u))};
+const ans=v=>{st.set('at-ck',v);ck.style.display='none';if(v==='1')saveUtm()};
+F('at-yes').onclick=()=>ans('1');F('at-no').onclick=()=>ans('0');
+if(st.get('at-ck')==='1')saveUtm();
+let U={};try{U=JSON.parse(st.get('at-utm')||'{}')}catch(e){}
+$$('a[data-track]').forEach(a=>{const h=a.getAttribute('href');if(h[0]==='#')return;try{const u=new URL(a.href);Object.keys(U).forEach(k=>u.searchParams.set(k,U[k]));a.href=u.toString()}catch(e){}});
+})();
+</script>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:stackable/spacer {"uniqueId":"920fd6b","height":0,"heightTablet":70} -->
+<div class="wp-block-stackable-spacer stk-block-spacer stk--no-padding stk-block stk-920fd6b" data-block-id="920fd6b"><style>.stk-920fd6b {height:0px !important;}@media screen and (max-width: 1023px){.stk-920fd6b {height:70px !important;}}</style></div>
+<!-- /wp:stackable/spacer -->
